@@ -16,13 +16,13 @@ const Home = ({}) => {
   return (
     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       {!session ? (
-        <div className="flex justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
           <h3 className="text-2xl self-center w-[500px] mt-5 text-gray-400">
             Sign in or create an account to be able to create and manage your
             own super cookbook, or feel free to browse the Discover page for
             recipes published by Supabook users!
           </h3>
-          <div className="p-5 mt-32 rounded-md mx-auto w-[500px] bg-gray-100 border">
+          <div className="p-5 mt-5 rounded-md mx-auto w-[500px] bg-gray-100 border">
             <Auth supabaseClient={supabase} appearance={{ theme: ThemeSupa }} />
           </div>{" "}
         </div>

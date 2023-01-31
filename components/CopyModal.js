@@ -10,7 +10,7 @@ export default function ConfirmModal({ label, user, recipe }) {
         name: recipe.name,
         description: recipe.description,
         ingredients: recipe.ingredients,
-        user: user?.id,
+        user_id: user?.id,
         version: recipe.version + 1,
       },
     ]);

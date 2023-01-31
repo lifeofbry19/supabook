@@ -1,14 +1,15 @@
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
+import { useRouter } from "next/router";
 
 export default function ConfirmModal({ label, user, recipe }) {
   const supabase = useSupabaseClient();
-
+  const router = useRouter();
   const deleteRecipe = async () => {
     console.log("deleting");
     const { data, error } = await supabase
       .from("recipes")
       .delete()
-      .eq("user_id", user.id);
+      .eq("id", recipe.id);
     if (error) {
       console.log(error);
     } else {

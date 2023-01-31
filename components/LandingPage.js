@@ -30,7 +30,7 @@ export default function LandingPage({ user }) {
             <div class="hero-content text-start">
               <div class="max-w-md">
                 <h1 class="text-2xl  md:text-3xl font-bold">
-                  Our Versioning System
+                  A Versioning System for Your Recipes
                 </h1>
                 <p class="py-6">
                   Each recipe you create will have a version number, starting
