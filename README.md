@@ -2,7 +2,7 @@
 
 ## Live demo [here](https://effervescent-duckanoo-8cf53f.netlify.app/)
 
-<img src="https://share.getcloudapp.com/NQuWvXAW"/>
+![Screen Recording 2023-03-12 at 07 23 26 PM](https://user-images.githubusercontent.com/99948055/224584170-c93d82f3-122e-4762-8fe3-3bde1d9f193b.gif)
 
 ## Core features:
 - Supabook implements core CRUD functionality for managing user accounts as well as recipes. 
